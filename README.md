@@ -4,42 +4,42 @@ This is my submission for the Udacity Linux Server Configuration project
 
 ## Server details
 
-IP Address: 35.178.149.161
-URL: http://corinnescatalog.35.178.149.161.xip.io/genres
+* IP Address: 35.178.149.161
+* URL: http://corinnescatalog.35.178.149.161.xip.io/genres
 
 ## Software Installed
 
-Finger
-pip
-Flask
-oauth2client
-flask-httpauth
-sqlalchemy
-Flask-SQLAlchemy
-psycopg2-binary
-requests
-postgresql, postgresql -contrib
-mod_wsgi
-apache2
-httplib2
+* Finger
+* pip
+* Flask
+* oauth2client
+* flask-httpauth
+* sqlalchemy
+* Flask-SQLAlchemy
+* psycopg2-binary
+* requests
+* postgresql, postgresql -contrib
+* mod_wsgi
+* apache2
+* httplib2
 
 ## Configurations made
 
 ### Users
 
-User `grader` added to sudoer.d file to give sudo privileges.
-User `ubuntu` added as postgrs superuser that can interact with library database, password protected.
+* User `grader` added to sudoer.d file to give sudo privileges.
+* User `ubuntu` added as postgrs superuser that can interact with library database, password protected.
 
 ### Security
 
-Ports listening on 2200, 80 and 123.
-Users can only login with public/private keys
-Login not possible with `root`
-Database authentication changed from `peer` to `md5`
+* Ports listening on 2200, 80 and 123.
+* Users can only login with public/private keys
+* Login not possible with `root`
+* Database authentication changed from `peer` to `md5`
 
 ### Web server
 
-VirtualHost file configured to serve Public IP address as above with ServerAlias of URL given above.
+* VirtualHost file configured to serve Public IP address as above with ServerAlias of URL given above.
 
 ### Resources
 
