@@ -22,6 +22,7 @@ This is my submission for the Udacity Linux Server Configuration project
 * mod_wsgi
 * apache2
 * httplib2
+* aptitude
 
 ## Configurations made
 
@@ -32,7 +33,7 @@ This is my submission for the Udacity Linux Server Configuration project
 
 ### Security
 
-* Ports listening on 2200, 80 and 123.
+* Ports listening only 2200, 80 and 123.
 * Users can only login with public/private keys
 * Login not possible with `root`
 * Database authentication changed from `peer` to `md5`
